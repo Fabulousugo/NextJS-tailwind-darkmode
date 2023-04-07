@@ -20,9 +20,8 @@ export default function Home() {
     <>
       <div className="flex h-screen">
         <div className="m-auto">
-          <h3>title</h3>
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">button</button>
-          <h1 className="text-3xl font-bold underline">
+
+          <h1 className="pb-10 text-3xl font-bold underline">
             Hello world!
           </h1>
           <select value={theme} onChange={e => setTheme(e.target.value)}>
